@@ -16,7 +16,7 @@
          * @see https://github.com/shripalsoni04/nativescript-webview-interface/issues/22
          *
          */
-        this.isUsingWKWebView = this.webView.ios.constructor.name === "WKWebView";
+        this.isUsingWKWebView = true;
 
         this._listenWebViewLoadStarted();
         if(src){
